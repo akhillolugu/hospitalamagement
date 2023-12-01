@@ -1,0 +1,74 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./heart.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .login-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: auto; /* Center the form horizontally */
+  }
+  
+  .login-form h2 {
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .login-form input {
+    width: calc(100% - 20px); /* Adjusted width to account for padding and border */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Apply specific styles for username and password fields */
+  .login-form #username {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+  }
+  
+  .login-form #password {
+    border: 2px solid #3498db;
+    border-radius: 5px;
+  }
+  
+  .login-form input:hover {
+    border-color: #2c3e50;
+  }
+  
+  .login-form button {
+    background-color: #3b5998;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover {
+    background-color: #2c3e50;
+  }
+  
